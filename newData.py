@@ -25,7 +25,8 @@ dataDF.plot(
   x='countries',
   y=['data1990', 'data2014'],
   kind='bar',
-  title = 'Marine Protected Area VS Countries',
+  title = ''' Marine Protected Area (% of Total Territorial Area) in Selected Countries
+   in 1990 v.s. 2014 ''',
   colormap = 'Pastel2'
 )
 
@@ -33,7 +34,7 @@ dataDF.plot(
 
 
 plt.xlabel('Countries')
-plt.ylabel('Marine Protected Area ')
+plt.ylabel('Marine Protected Area (% of total territorial area) ')
 plt.show()
 
 
